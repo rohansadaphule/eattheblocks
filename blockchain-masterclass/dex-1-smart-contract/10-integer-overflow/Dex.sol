@@ -192,7 +192,7 @@ contract Dex {
                 orders[j] = orders[j + 1];
             }
             orders.pop();
-            i++;
+            i = i.add(1);
         }
     }
    
